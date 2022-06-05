@@ -4,7 +4,11 @@ This library is an implementation of N length vectors. I made the initial implem
 
 ### Documentation
 
-TODO! remember to put link
+https://calebowens.github.io/Vectors/
+
+### Git Repo
+
+https://github.com/calebowens/Vectors
 
 ## Example
 
@@ -20,7 +24,7 @@ const vec3 = vec1.add(vec2) // is Vec3([3, 5, 7])
 const vec4 = vec1.mul(vec2) // is Vec3([2, 6, 12])
 ```
 
-Vec<N>
+Vec\<N\>
 
 ```ts
 import { Vec } from 'vectors-co'
