@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "target": "esnext",
+    "lib": ["es2020", "dom"],
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "out",
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\cocac\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add guassian-elimination-co
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.4.0_x64__8wekyb3d8bbwe;C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\cocac\AppData\Local\Microsoft\WindowsApps;C:\Users\cocac\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\php\v7.4;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\git.exe;C:\Users\cocac\.cargo\bin;C:\Ruby31-x64\bin;C:\Program Files (x86)\GitHub CLI\;C:\tools\neovim\Neovim\bin;C:\Users\cocac\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2022.1\bin;C:\Program Files\JetBrains\PhpStorm 2022.1.1\bin;C:\Program Files\JetBrains\WebStorm 2022.1.1\bin;C:\Program Files\JetBrains\CLion 2022.1.1\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/guassian-elimination-co: Not found
+      at Request.params.callback [as _callback] (C:\Users\cocac\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\cocac\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:520:28)
+      at Request.<anonymous> (C:\Users\cocac\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:520:28)
+      at IncomingMessage.<anonymous> (C:\Users\cocac\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:639:28)
+      at IncomingMessage.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1346:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "vectors-co",
+    "version": "1.0.0",
+    "description": "A library for handling multi dimensional vectors",
+    "main": "main.js",
+    "author": "Caleb Owens <hello@calebowens.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
